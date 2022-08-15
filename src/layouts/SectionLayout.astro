@@ -1,0 +1,24 @@
+---
+interface Props {
+    color : string;
+}
+
+const {color} = Astro.props as Props
+
+---
+<section>
+    <slot></slot>
+</section>
+
+
+<style define:vars={{color}}>
+
+    section {
+        background-color: var(--color);
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+</style>

@@ -1,0 +1,22 @@
+---
+import ProjectCard from './ProjectCard.astro';
+import projects from '../assets/data/projectData';
+
+// console.log(projects);
+---
+<div class="section-container">
+    <div class="project-section">
+        <h1>My Projects</h1>
+
+        {projects.map((project) => (
+            <ProjectCard {project}/>
+       ))}
+    </div>
+</div>
+<style>
+    .project-section {
+        color:white;
+        width:80vw;
+        min-height:100vh;
+    }
+</style>

@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HeaderSection from '../components/HeaderSection.astro';
+import ProjectSection from '../components/ProjectSection.astro';
+import SectionLayout from '../layouts/SectionLayout.astro';
+
+---
+<Layout title="Edward Xiao">
+	<main>
+		<SectionLayout color="#b9fcc1">
+			<HeaderSection />
+		</SectionLayout>
+
+		<!-- <SectionLayout color="#be80ff"> -->
+		<SectionLayout color="#7834c0">
+			<ProjectSection />
+		</SectionLayout>
+	</main>
+</Layout>
+<style>
+
+	main {
+		margin: auto;
+	}
+
+</style>

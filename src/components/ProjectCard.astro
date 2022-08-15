@@ -1,0 +1,24 @@
+---
+interface Props {
+    name: string,
+    technologies: Array<String>,
+    description: string,
+    GithubLink: string,
+    DemoLink: string, 
+    ImageLink: string,
+}
+
+const {name, technologies, description, GithubLink, DemoLink, ImageLink} = 
+                        Astro.props.project as Props;
+---
+
+<div class="projectCard">
+
+    <span>{name}</span>
+    <span>{technologies}</span>
+    <p>{description}</p>
+    <a href={GithubLink} target="_blank"></a>
+    <a href={DemoLink} target="_blank"></a>
+    <img src={ImageLink} />
+
+</div>

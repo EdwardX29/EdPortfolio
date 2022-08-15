@@ -1,0 +1,100 @@
+---
+import Facebook from '../assets/facebook.svg';
+import Github from '../assets/github.svg';
+import Gmail from '../assets/gmail.svg';
+import LinkedIn from '../assets/linkedin.svg';
+import Twitter from '../assets/twitter.svg';
+
+---
+<div class="section-container">
+<div class="header-section">
+    <div class="header-container">
+        <h1>
+            Hello, I'm <br>
+            <span>Edward Xiao</span>
+        </h1>		
+        <div class="profile-container">
+            <img id="profile-pic" src="https://avatars.githubusercontent.com/u/69602889" />
+        </div>
+    </div>
+    <p>
+        A computer science student at the University of Maryland. 
+        I aim to strengthen my knowledge in technology and its applications in 
+        tangential fields.
+    </p>
+    <div class="buttons">
+        <a class="socialbtn" href="https://github.com/EdwardX29" target="_blank">
+            <img  src={Github} />
+        </a>
+
+        <a class="socialbtn" href="mailto:edwardxiao29@gmail.com">
+            <img src={Gmail} />
+        </a>
+        <!-- <img src={Facebook} /> -->
+        <!-- <img src={LinkedIn} /> -->
+        <!-- <img src={Twitter} /> -->
+
+    </div>
+</div>
+</div>
+
+<style>
+
+.header-section {
+    width:80vw;
+    min-height:100vh;
+    padding:100px;
+}
+
+h1 {
+    margin: 2rem 0;
+}
+
+span {
+    color:rgb(180, 59, 180);
+}
+
+p {
+    font-size:1.8rem;
+    font-weight: 600;
+    color:rgb(66, 66, 66);
+    width:48vw;
+}
+
+.header-container {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:row;
+    
+}
+
+.profile-container {
+    text-align:center;
+}
+
+ #profile-pic  {
+    border-radius:50%;
+    border: 3px solid #1ddd33;
+    width: clamp(10vw, 100px, 200px);
+    transition: width 0.2s ease-in-out;
+}
+
+ #profile-pic:hover {
+    width: clamp(12vw, 125px, 250px);
+}
+
+.socialbtn {
+    margin:2px;
+    text-decoration: none;
+    width:auto;
+    height:auto;
+}
+
+.socialbtn img:hover {
+    transform: translateY(-5px);
+    filter: invert(13%) sepia(97%) saturate(3410%) hue-rotate(210deg) brightness(91%) contrast(115%);
+}
+
+
+</style>
