@@ -63,7 +63,7 @@ const projects = [
         description: 'Scripts for an automated Twitch Clips YouTube channel. Concatenate top clips and upload videos to YouTube.',
         // GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
         // DemoLink: 'https://github.io/EdwardX29/',
-        ImageLink:'src/assets/images/twitch-logo2.png',
+        ImageLink:'/EdPortfolio/assets/images/twitch-logo2.png',
     },
 
     {
