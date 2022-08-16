@@ -57,6 +57,14 @@ const projects = [
         DemoLink: 'https://edwardx29.github.io/spotify-higher-lower/',
         ImageLink:'src/assets/images/bypassgoogle.png',
     },
+    // {
+    //     name: "Automated YouTube Channel",
+    //     technologies: ['Python', 'Bash', 'ffmpeg', 'Twitch API', 'Youtube API'],
+    //     description: 'Scripts for an automated Twitch Clips YouTube channel. Concatenate top clips and upload videos to YouTube.',
+    //     GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
+    //     DemoLink: 'https://github.io/EdwardX29/',
+    //     ImageLink:'src/assets/images/twitch-logo2.png',
+    // },
 
     {
         name: 'Biographify',
@@ -67,6 +75,8 @@ const projects = [
         DemoLink: 'https://biographify.herokuapp.com/',
         ImageLink:'src/assets/images/bio.png',
     },
+
+
 
     {
         name: 'AP Award Maker',
@@ -86,7 +96,14 @@ const projects = [
         ImageLink:'src/assets/images/carti.png',
     },
 
-
+    // {
+    //     name: "Ed's Portfolio",
+    //     technologies: ['Javascript/Typescript', 'Astrojs', 'CSS'],
+    //     description: 'My static tech portfolio website built with Astrojs.',
+    //     GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
+    //     DemoLink: 'https://github.io/EdwardX29/',
+    //     ImageLink:'src/assets/images/portfolio.png',
+    // },
 
 
 
