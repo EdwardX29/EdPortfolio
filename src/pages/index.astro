@@ -1,8 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SectionLayout from '../layouts/SectionLayout.astro';
+
 import HeaderSection from '../components/HeaderSection.astro';
 import ProjectSection from '../components/ProjectSection.astro';
-import SectionLayout from '../layouts/SectionLayout.astro';
+import ContactSection from '../components/contactSection.astro';
 
 ---
 <Layout title="Edward Xiao">
@@ -15,6 +17,11 @@ import SectionLayout from '../layouts/SectionLayout.astro';
 		<SectionLayout color="#7834c0">
 			<ProjectSection />
 		</SectionLayout>
+
+		<SectionLayout color="orange">
+			<ContactSection />
+		</SectionLayout>
+
 	</main>
 </Layout>
 <style>
