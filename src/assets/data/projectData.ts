@@ -76,7 +76,14 @@ const projects = [
         ImageLink:'/EdPortfolio/assets/images/bio.png',
     },
 
-
+    {
+        name: "Ed's Portfolio",
+        technologies: ['Javascript/Typescript', 'Astrojs', 'CSS'],
+        description: 'My static tech portfolio website built with Astrojs.',
+        GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
+        DemoLink: 'https://edwardx29.github.io/EdPortfolio/',
+        ImageLink:'src/assets/images/portfolio.png',
+    },
 
     {
         name: 'AP Award Maker',
@@ -96,14 +103,7 @@ const projects = [
         ImageLink:'/EdPortfolio/assets/images/carti.png',
     },
 
-    // {
-    //     name: "Ed's Portfolio",
-    //     technologies: ['Javascript/Typescript', 'Astrojs', 'CSS'],
-    //     description: 'My static tech portfolio website built with Astrojs.',
-    //     GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
-    //     DemoLink: 'https://github.io/EdwardX29/',
-    //     ImageLink:'src/assets/images/portfolio.png',
-    // },
+
 
 
 
