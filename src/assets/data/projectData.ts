@@ -53,8 +53,8 @@ const projects = [
         name: 'Bypass Google Docs',
         technologies: ['Python', 'Flask', 'BeautifulSoup', 'Pandas', 'Bootstrap5', 'CSS'],
         description: 'Download view-only Google Docs and Google Sheets with this app. Input the ID of the document to download and receive it in docx or csv files.',
-        GithubLink: 'https://github.com/EdwardX29/spotify-higher-lower',
-        DemoLink: 'https://edwardx29.github.io/spotify-higher-lower/',
+        GithubLink: 'https://github.com/EdwardX29/bypass-google',
+        DemoLink: 'https://bypassgoogle.pythonanywhere.com/',
         ImageLink:'/EdPortfolio/assets/images/bypassgoogle.png',
     },
     {
