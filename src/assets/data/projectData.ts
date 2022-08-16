@@ -60,9 +60,9 @@ const projects = [
     {
         name: "Automated YouTube Channel",
         technologies: ['Python', 'Bash', 'ffmpeg', 'Twitch API', 'Youtube API'],
-        description: 'Scripts for an automated Twitch Clips YouTube channel. Concatenate top clips and upload videos to YouTube.',
-        // GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
-        // DemoLink: 'https://github.io/EdwardX29/',
+        description: 'Scripts for an automated Twitch Clips YouTube channel. Concatenate top clips and upload videos to YouTube. Leverage Twitch API and YouTube API together',
+        GithubLink: '',
+        DemoLink: '',
         ImageLink:'/EdPortfolio/assets/images/twitch-logo2.png',
     },
 
@@ -70,7 +70,7 @@ const projects = [
         name: 'Biographify',
         technologies: ['Python', 'Django', 'Bootstrap5', 
                         'Spotify SSO', 'html2canvas'],
-        description: 'Visualize your top Spotify tracks as a biography for the last month, 6 months, and all time. Download your aesthetics to share with your friends.',
+        description: 'Visualize your top Spotify tracks as a biography for the last month, 6 months, and all time through Spotify API. Download your aesthetics to share with your friends.',
         GithubLink: 'https://github.com/EdwardX29/biographify',
         DemoLink: 'https://biographify.herokuapp.com/',
         ImageLink:'/EdPortfolio/assets/images/bio.png',
