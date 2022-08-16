@@ -1,4 +1,7 @@
 ---
+import Browser from '../assets/browser2.svg';
+import Github from '../assets/github.svg';
+
 interface Props {
     name: string,
     technologies: Array<String>,
@@ -13,12 +16,92 @@ const {name, technologies, description, GithubLink, DemoLink, ImageLink} =
 ---
 
 <div class="projectCard">
-
-    <span>{name}</span>
-    <span>{technologies}</span>
-    <p>{description}</p>
-    <a href={GithubLink} target="_blank"></a>
-    <a href={DemoLink} target="_blank"></a>
     <img src={ImageLink} />
+    <div class="projectText">
+        <span class="projectName">{name}</span>
+        <div class="technologies">
+            {technologies.map((tech) => (
+                <span class="tech">{tech}</span>
 
+            ))}
+        </div>
+        <p class="projectDescription">{description}</p>
+        <div class="socialBtns">
+            {
+                GithubLink && 
+                <a class="socialbtn" href={GithubLink} target="_blank">
+                        <img src={Github} />
+                </a>
+            }
+            
+            {
+                DemoLink &&
+                <a class="socialbtn" href={DemoLink} target="_blank">
+                    <img src={Browser} />
+                </a>
+            }
+        </div>
+    </div>
 </div>
+
+
+<style>
+    .projectCard {
+        margin: 20px 5px;
+        width:400px;
+        background-color: #448899;
+        border-radius: 10px;
+        box-shadow: 1px 2px #3f13a7;
+    }
+
+    .projectCard img {
+        width:400px;
+        height:250px;
+        border-radius: 10px;
+    }
+
+    .projectText {
+        padding:1em;
+    }
+
+    .projectName {
+        font-weight:700;
+        font-size:1.1rem;
+    }
+
+    .technologies {
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        align-items:center;
+        margin: 15px 0;
+    }
+
+    .tech {
+        margin-right:4px;
+        margin-top: 4px;
+        margin-bottom:4px;
+        border: solid 1px white;
+        padding: 6px;
+        user-select:none;
+        font-size:0.75rem;
+    }
+
+    .socialbtn {
+        margin:2px;
+        text-decoration: none;
+        width:auto;
+        height:auto;
+    }
+        
+    .socialbtn img {
+        width:50px;
+        height:50px;
+    }
+    
+    .socialbtn img:hover {
+        transform: translateY(-5px);
+        filter: invert(89%) sepia(11%) saturate(765%) hue-rotate(160deg) brightness(94%) contrast(92%);
+    }
+
+</style>

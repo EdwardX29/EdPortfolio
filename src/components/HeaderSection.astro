@@ -30,6 +30,15 @@ import Twitter from '../assets/twitter.svg';
         <a class="socialbtn" href="mailto:edwardxiao29@gmail.com">
             <img src={Gmail} />
         </a>
+
+        <a href="" class="resumeBtn">
+            Resume
+        </a>
+
+        <a href="#projectSection" class="resumeBtn">
+            Projects
+        </a>
+
         <!-- <img src={Facebook} /> -->
         <!-- <img src={LinkedIn} /> -->
         <!-- <img src={Twitter} /> -->
@@ -84,6 +93,12 @@ p {
     width: clamp(12vw, 125px, 250px);
 }
 
+.buttons {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
 .socialbtn {
     margin:2px;
     text-decoration: none;
@@ -95,6 +110,25 @@ p {
     transform: translateY(-5px);
     filter: invert(13%) sepia(97%) saturate(3410%) hue-rotate(210deg) brightness(91%) contrast(115%);
 }
+
+.resumeBtn {
+    border: 3px solid rgb(180,59,180);
+    border-radius:10px;
+    padding:10px;
+    color:rgb(180,59,180);
+    cursor:pointer;
+    font-size:1.2rem;
+    font-weight:600;
+    margin-left:10px;
+    transition:background-color ease-in-out 0.1s;
+    text-decoration:none;
+}
+
+.resumeBtn:hover {
+    background-color:pink;
+}
+
+
 
 
 </style>
