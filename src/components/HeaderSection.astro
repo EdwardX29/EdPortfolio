@@ -23,22 +23,24 @@ import Twitter from '../assets/twitter.svg';
         tangential fields.
     </p>
     <div class="buttons">
-        <a class="socialbtn" href="https://github.com/EdwardX29" target="_blank">
-            <img  src={Github} />
-        </a>
+        <div class="socialBtns">
+            <a class="socialbtn" href="https://github.com/EdwardX29" target="_blank">
+                <img  src={Github} />
+            </a>
 
-        <a class="socialbtn" href="mailto:edwardxiao29@gmail.com">
-            <img src={Gmail} />
-        </a>
+            <a class="socialbtn" href="mailto:edwardxiao29@gmail.com">
+                <img src={Gmail} />
+            </a>
+        </div>
+        <div class="pinkBtns">
+            <a href="" class="pinkBtn">
+                Resume
+            </a>
 
-        <a href="" class="resumeBtn">
-            Resume
-        </a>
-
-        <a href="#projectSection" class="resumeBtn">
-            Projects
-        </a>
-
+            <a href="#projectSection" class="pinkBtn">
+                Projects
+            </a>
+        </div>
         <!-- <img src={Facebook} /> -->
         <!-- <img src={LinkedIn} /> -->
         <!-- <img src={Twitter} /> -->
@@ -97,6 +99,7 @@ p {
     display:flex;
     flex-direction:row;
     align-items:center;
+    flex-wrap:wrap;
 }
 
 .socialbtn {
@@ -111,7 +114,7 @@ p {
     filter: invert(13%) sepia(97%) saturate(3410%) hue-rotate(210deg) brightness(91%) contrast(115%);
 }
 
-.resumeBtn {
+.pinkBtn {
     border: 3px solid rgb(180,59,180);
     border-radius:10px;
     padding:10px;
@@ -124,7 +127,7 @@ p {
     text-decoration:none;
 }
 
-.resumeBtn:hover {
+.pinkBtn:hover {
     background-color:pink;
 }
 
