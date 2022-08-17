@@ -61,7 +61,7 @@ const projects = [
         name: "Automated YouTube Channel",
         technologies: ['Python', 'Bash', 'ffmpeg', 'Twitch API', 'Youtube API'],
         description: 'Scripts for an automated Twitch Clips YouTube channel. Concatenate top clips and upload videos to YouTube. Leverage Twitch API and YouTube API together',
-        GithubLink: '',
+        GithubLink: 'https://github.com/EdwardX29/TwitchClips_YTChannel',
         DemoLink: '',
         ImageLink:'/EdPortfolio/assets/images/twitch-logo2.png',
     },
