@@ -82,7 +82,7 @@ const projects = [
         description: 'My static tech portfolio website built with Astrojs.',
         GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
         DemoLink: 'https://github.io/EdwardX29/',
-        ImageLink:'src/assets/images/portfolio.png',
+        ImageLink:'src/assets/images/portfolio.png', 
     },
 
     {
