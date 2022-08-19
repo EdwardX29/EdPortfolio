@@ -53,8 +53,8 @@ const projects = [
         name: 'Bypass Google Docs',
         technologies: ['Python', 'Flask', 'BeautifulSoup', 'Pandas', 'Bootstrap5', 'CSS'],
         description: 'Download view-only Google Docs and Google Sheets with this app. Input the ID of the document to download and receive it in docx or csv files.',
-        GithubLink: 'https://github.com/EdwardX29/spotify-higher-lower',
-        DemoLink: 'https://edwardx29.github.io/spotify-higher-lower/',
+        GithubLink: 'https://github.com/EdwardX29/bypass-google',
+        DemoLink: 'https://bypassgoogle.pythonanywhere.com/',
         ImageLink:'/EdPortfolio/assets/images/bypassgoogle.png',
     },
     {
@@ -70,7 +70,7 @@ const projects = [
         name: 'Biographify',
         technologies: ['Python', 'Django', 'Bootstrap5', 
                         'Spotify SSO', 'html2canvas'],
-        description: 'Visualize your top Spotify tracks as a biography for the last month, 6 months, and all time. Download your aesthetics to share with your friends.',
+        description: 'Visualize your top Spotify tracks as a biography for the last month, 6 months, and all time through Spotify API. Download your aesthetics to share with your friends.',
         GithubLink: 'https://github.com/EdwardX29/biographify',
         DemoLink: 'https://biographify.herokuapp.com/',
         ImageLink:'/EdPortfolio/assets/images/bio.png',
@@ -81,10 +81,9 @@ const projects = [
         technologies: ['Javascript/Typescript', 'Astrojs', 'CSS'],
         description: 'My static tech portfolio website built with Astrojs.',
         GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
-        DemoLink: 'https://github.io/EdwardX29/EdPortfolio',
-        ImageLink:'/EdPortfolio/assets/images/portfolio.png', 
+        DemoLink: 'https://edwardx29.github.io/EdPortfolio/',
+        ImageLink:'/EdPortfolio/assets/images/portfolio.png',
     },
-
     {
         name: 'UI Component Potpourri',
         technologies: ['Javascript/Typescript', 'React', 'Vitejs', 'CSS', 'Framer'],
@@ -93,7 +92,6 @@ const projects = [
         DemoLink: 'https://edwardx29.github.io/ComponentPotpourri/',
         ImageLink:'/EdPortfolio/assets/images/UI.png',
     },
-
     {
         name: 'AP Award Maker',
         technologies: ['Javascript/Typescript', 'React', 'Vitejs', 'CSS', 'Framer'],
@@ -111,12 +109,6 @@ const projects = [
         DemoLink: 'https://edwardx29.github.io/CartiClicker/',
         ImageLink:'/EdPortfolio/assets/images/carti.png',
     },
-
-
-
-
-
 ]
-
 
 export default projects;
