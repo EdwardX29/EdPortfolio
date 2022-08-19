@@ -81,7 +81,7 @@ const projects = [
         technologies: ['Javascript/Typescript', 'Astrojs', 'CSS'],
         description: 'My static tech portfolio website built with Astrojs.',
         GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
-        DemoLink: 'https://github.io/EdwardX29/',
+        DemoLink: 'https://github.io/EdwardX29/EdPortfolio',
         ImageLink:'/EdPortfolio/assets/images/portfolio.png', 
     },
 
