@@ -57,14 +57,14 @@ const projects = [
         DemoLink: 'https://edwardx29.github.io/spotify-higher-lower/',
         ImageLink:'/EdPortfolio/assets/images/bypassgoogle.png',
     },
-    // {
-    //     name: "Automated YouTube Channel",
-    //     technologies: ['Python', 'Bash', 'ffmpeg', 'Twitch API', 'Youtube API'],
-    //     description: 'Scripts for an automated Twitch Clips YouTube channel. Concatenate top clips and upload videos to YouTube.',
-    //     GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
-    //     DemoLink: 'https://github.io/EdwardX29/',
-    //     ImageLink:'src/assets/images/twitch-logo2.png',
-    // },
+    {
+        name: "Automated YouTube Channel",
+        technologies: ['Python', 'Bash', 'ffmpeg', 'Twitch API', 'Youtube API'],
+        description: 'Scripts for an automated Twitch Clips YouTube channel. Concatenate top clips and upload videos to YouTube. Leverage Twitch API and YouTube API together',
+        GithubLink: 'https://github.com/EdwardX29/TwitchClips_YTChannel',
+        DemoLink: '',
+        ImageLink:'src/assets/images/twitch-logo2.png',
+    },
 
     {
         name: 'Biographify',
@@ -76,7 +76,23 @@ const projects = [
         ImageLink:'/EdPortfolio/assets/images/bio.png',
     },
 
+    {
+        name: "Ed's Portfolio",
+        technologies: ['Javascript/Typescript', 'Astrojs', 'CSS'],
+        description: 'My static tech portfolio website built with Astrojs.',
+        GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
+        DemoLink: 'https://github.io/EdwardX29/',
+        ImageLink:'src/assets/images/portfolio.png',
+    },
 
+    {
+        name: 'UI Component Potpourri',
+        technologies: ['Javascript/Typescript', 'React', 'Vitejs', 'CSS', 'Framer'],
+        description: 'Back to the basics. A website showcasing several UI Components created using fundamental React and CSS.',
+        GithubLink: 'https://github.com/EdwardX29/ComponentPotpourri',
+        DemoLink: 'https://edwardx29.github.io/ComponentPotpourri/',
+        ImageLink:'/EdPortfolio/assets/images/UI.png',
+    },
 
     {
         name: 'AP Award Maker',
@@ -96,14 +112,7 @@ const projects = [
         ImageLink:'/EdPortfolio/assets/images/carti.png',
     },
 
-    // {
-    //     name: "Ed's Portfolio",
-    //     technologies: ['Javascript/Typescript', 'Astrojs', 'CSS'],
-    //     description: 'My static tech portfolio website built with Astrojs.',
-    //     GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
-    //     DemoLink: 'https://github.io/EdwardX29/',
-    //     ImageLink:'src/assets/images/portfolio.png',
-    // },
+
 
 
 
