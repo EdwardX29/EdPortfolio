@@ -63,7 +63,7 @@ const projects = [
         description: 'Scripts for an automated Twitch Clips YouTube channel. Concatenate top clips and upload videos to YouTube. Leverage Twitch API and YouTube API together',
         GithubLink: 'https://github.com/EdwardX29/TwitchClips_YTChannel',
         DemoLink: '',
-        ImageLink:'src/assets/images/twitch-logo2.png',
+        ImageLink:'/EdPortfolio/assets/images/twitch-logo2.png',
     },
 
     {
@@ -82,7 +82,7 @@ const projects = [
         description: 'My static tech portfolio website built with Astrojs.',
         GithubLink: 'https://github.com/EdwardX29/EdPortfolio',
         DemoLink: 'https://github.io/EdwardX29/',
-        ImageLink:'src/assets/images/portfolio.png', 
+        ImageLink:'/EdPortfolio/assets/images/portfolio.png', 
     },
 
     {
