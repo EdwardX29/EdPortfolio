@@ -11,7 +11,7 @@ const projects = [
     },
 
     {
-        name: 'Musical Metamorphasis Research',
+        name: 'Musical Metamorphosis Research',
         technologies: ['Python', 'Jupyter', 'API', 'Matplotlib', 'Scipy', 'statsmodels' ],
         description: `The perfect-scoring, final Ulysses Research project exploring the evolution of popular 
         music in the 2000s & 2010s through data science. Analysed ~9000 songs spanning two decades of American pop music.`,
