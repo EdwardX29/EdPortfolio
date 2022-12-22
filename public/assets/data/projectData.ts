@@ -3,8 +3,8 @@ const projects = [
     {
         name: 'MoCoCovid',
         technologies: ['Python', 'PHP', 'MySQL', 'Matplotlib', 'SMTP', 'API' ],
-        description: `A COVID-19 informational newsletter website for COVID-19 data in Montgomery County Maryland. Delievered clear, concise, data reports weekly. 
-                        Assembled automated school dashboard with Tableau. Served 300+ weekly newsletter subscribers over 1 year.`,
+        description: `A COVID-19 informational newsletter website for COVID-19 data in Montgomery County Maryland. Delivered clear, concise, data reports weekly. 
+                        Assembled automated school dashboard with Tableau. Served 400+ weekly newsletter subscribers over 1 year.`,
         GithubLink: '',
         DemoLink: 'https://mococovid.com',
         ImageLink:'/EdPortfolio/assets/images/moco.png',
